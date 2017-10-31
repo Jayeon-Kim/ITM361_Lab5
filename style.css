@@ -1,0 +1,72 @@
+/* CSS style*/ 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+	text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+	border-color:red;
+	
+}
+
+tr:hover  
+ { 
+   background-color: #FFA500; 
+ } 
+#mercury:hover{
+	background-color: #FFF500;
+}
+#venus:hover{
+	background-color: #FFF500;
+}
+#earth:hover{
+	background-color: #FFF500;
+}
+#mars:hover{
+	background-color: #FFF500;
+}
+th{
+    text-align: left;
+    padding: 8px;
+    font-size: 25px;
+	border-bottom: 1px solid #ddd;
+	border-color:red;
+}
+
+
+#title {
+    padding: 10px;
+    text-align: center;
+	color:red;
+	font-size: 300%; 
+}
+#planet_name {
+	font-weight: bold; 
+font-size: 30px; 
+padding:10px;
+text-align:center;
+}
+sup{ 
+   vertical-align: 7px; 
+   font-size: smaller; 
+ } 
+
+
+h1 {
+	font-family : Tahoma, Geneva, sans-serif;
+	color:red;
+	font-size: 100%; 
+	background-image:url('images/title_background.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+body {
+	background-image:url('images/background.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
